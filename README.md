@@ -115,8 +115,12 @@ flutter devices
 
 flutter config --enable-web = Once web is enabled, flutter devices outputs a device named Chrome . After enabling web support, restart the IDE. You should now see Chrome (web) in the device pulldown.
 
-flutter run -d chrome = To serve your app from localhost in Chrome, enter the following from the top of the package, If there aren’t any other connected devices, the -d chrome is optional.
+flutter run -d chrome = To serve your app from localhost in Chrome, enter the following from the top of the package,
+                        If there aren’t any other connected devices, the -d chrome is optional.
 
 
-flutter build web = Add web support, you should see a build folder (/build/web) in the root directory, just copy that folder and host it on a web server
+flutter build web = Add web support, you should see a build folder (/build/web) in the root directory,
+                    just copy that folder and host it on a web server
+
+flutter build apk --debug = create a apk file
 ```
